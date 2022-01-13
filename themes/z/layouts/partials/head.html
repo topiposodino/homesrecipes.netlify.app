@@ -1,5 +1,6 @@
 <head>
   {{ partial "arsae-client.html" . }}
+  {{ partial "google-analytics.html" . }}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   {{ hugo.Generator }}
@@ -12,7 +13,6 @@
   {{ $safariPinnedTab := "img/logo.svg" }}<link rel="mask-icon" href="{{ $safariPinnedTab | absURL }}" color="{{ .Site.Params.faviconSafariPinnedTabColor }}">
   <meta name="msapplication-TileColor" content="{{ .Site.Params.faviconMsApplicationTileColor }}">
   <meta name="theme-color" content="{{ .Site.Params.faviconThemeColor }}">
-  {{ partial "google-analytics.html" . }}
   {{ $bootstrapCss := "css/bootstrap.css" }}<link rel="stylesheet" href="{{ $bootstrapCss | absURL }}" />
   {{ $customCss := "css/style.css" }}<link rel="stylesheet" href="{{ $customCss | absURL }}" />
   {{ if ne .Section "post" }}<title>{{ .Site.Title }} - {{ .Site.Params.topdescription }}</title>{{ end }}
