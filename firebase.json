@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "recipesholiday",
     "public": "public",
     "ignore": [
       "firebase.json",
