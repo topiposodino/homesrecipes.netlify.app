@@ -7,11 +7,5 @@
       "**/.*",
       "**/node_modules/**"
     ]
-    "rewrites": [
-      {
-        "source": "/sitemap.xml",
-        "function": "buildSitemap"
-      },
-    ]
   }
 }
