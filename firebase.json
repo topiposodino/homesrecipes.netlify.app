@@ -10,6 +10,6 @@
       {
         "source": "/sitemap.xml",
         "function": "buildSitemap"
-      },
+      }
     ]
 }
